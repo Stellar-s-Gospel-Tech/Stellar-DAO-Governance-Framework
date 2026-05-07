@@ -1,0 +1,35 @@
+# ── Build output ──────────────────────────────────────────────────────────────
+target/
+out/
+*.wasm
+
+# ── Stellar CLI ───────────────────────────────────────────────────────────────
+.stellar/
+
+# ── Test artifacts ────────────────────────────────────────────────────────────
+# Soroban test snapshots are generated automatically during `cargo test`.
+# They are environment-specific and should not be committed.
+**/test_snapshots/
+
+# ── Rust / Cargo ──────────────────────────────────────────────────────────────
+# Cargo.lock is intentionally committed for binary crates / workspace roots
+# so builds are reproducible. Remove the line below if you want to ignore it.
+# Cargo.lock
+
+# ── Editor / OS ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Local-only docs ───────────────────────────────────────────────────────────
+ISSUES.md
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+secrets/
