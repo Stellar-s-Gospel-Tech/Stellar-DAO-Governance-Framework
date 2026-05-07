@@ -11,7 +11,7 @@
 
 set -e
 
-REPO="YOUR_GITHUB_USERNAME/Stellar_DAO_Governance_Framework"
+REPO="Stellar-s-Gospel-Tech/Stellar-DAO-Governance-Framework"
 DIR="$(dirname "$0")/issues"
 LAYER="${1:-2}"
 
