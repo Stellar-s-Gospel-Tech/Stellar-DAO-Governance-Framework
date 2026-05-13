@@ -23,7 +23,7 @@ Thanks for your interest in contributing! This project is actively looking for c
 
 - Browse open issues — anything labelled `good first issue` is a great starting point.
 - Comment on an issue before starting work to avoid duplication.
-- Open a PR against `main` with a clear description of what you changed and why.
+- Open a PR against `develop` with a clear description of what you changed and why.
 
 ## Issue Labels
 
